@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/reset.css" type="text/css">
+        <link rel="stylesheet" href="css/estilos.css" type="text/css">
+        <link rel="stylesheet" href="css/flexbox.css" type="text/css">
+        
+        <title>Portfolio</title>
+    </head>
+
+    <body>
+        <!-- Cabecera -->
+        <header>
+            <div class="caja-navegador">
+                <li class="titulo">Portfolio de Sonia</li>
+                <!-- Menú de navegación -->
+                <nav class="navegador-cabecera">
+                    <ul class="menu-lista">
+                        <li class="menu-lista-item"><a href="index.html">Inicio</a></li>
+                        <li class="menu-lista-item"><a href="#sobre-mi">Sobre mi</a></li>
+                        <li class="menu-lista-item"><a href="#skills">Skills</a></li>
+                        <li class="menu-lista-item"><a href="#hobbies">Hobbies</a></li>
+                        <li class="menu-lista-item"><a href="#formacion">Formación</a></li>
+                        <li class="menu-lista-item"><a href="#proyectos">Proyectos</a></li>
+                        <li class="menu-lista-item"><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+        </header>
+
+        <!-- Información de la página -->
+        <main >
+            <div class="caja-saludo">
+                <div class="contenido-caja-saludo">
+                    <div class="mi-logo">
+                        <img src="img/Mi Logo con mi nombre.png" alt="Sonia Veit - Portfolio">
+                    </div>
+
+                    <div class="saludo-texto">
+                        <!--<h2 class="saludo-titulo">Hola, mi nombre es Sonia Veit</h2> -->
+                        <h3 class="saludo-parrafo">Hola, soy estudiante de Front-End en Alura Latam, en el programa Oracle Next Education</h3>
+                        <h3 class="saludo-parrafo">Aquí les presento mi portfolio</h3>
+                    </div>
+                    <div class="saludo-imagen">
+                        <img src="img/sv toon_2.png" alt="Imagen de Sonia">
+                    </div>
+                </div>
+            </div>
+
+            <div class="caja-info">
+                <div class="info-izq"></div>
+                
+                <div class="info-pagina">
+                    <div class="info-redes">
+                        <ul class="mis-redes-lista">
+                            <li class="mis-redes-item">
+                                <a href="https://www.linkedin.com/in/sonia-veit/" target="_blank">
+                                    <img class="redes-img" src="img/icons8-logotipo-de-linkedin-240_2.png" alt="LinkedIn">
+                                </a>
+                            </li>
+                            <li class="mis-redes-item">
+                                <a href="https://github.com/soniaveit" target="_blank">
+                                    <img class="redes-img" src="img/icons8-github-256.png" alt="GitHub">
+                                </a>
+                            </li>
+                            <li class="mis-redes-item"></li>
+                        </ul>
+                    </div>
+
+                    <div class="info-texto">
+                        <h2>Portfolio de Sonia Veit</h2>
+                        <p id="p1-info-pag">Analista en Sistemas  -  - Docente de Informática</p>
+                        <p id="p2-info-pag">Técnica en Superior en Programación</p>
+                        <p id="p3-info-pag">Desarrollo web - Front-End</p>
+                    </div>
+                </div>
+
+                <div class="info-der"></div>
+            </div>
+
+        </main>
+
+        <!--Seccion Sobre Mi-->
+        <div class="separador" id="sobre-mi"> </div>
+
+        <section class="seccion-sobre-mi"  >
+            
+            <div class="contenedor-sobre-mi">
+                <div class="logo-usuario"><img src="img/usuario.png" alt="icono-perfil"></div>
+
+                <div class="txt-sobre-mi">
+                    <h3 class="titulo-sobre-mi">Sobre mí</h3>
+                    <div class="parrafos-sobre-mi">
+                        <p class="texto-sobre-mi" id="mi-descripcion-1">descripción sobre mi</p>
+                        <p class="texto-sobre-mi" id="mi-descripcion-2">más sobre mi</p>
+                        <p class="texto-sobre-mi" id="mi-descripcion-3">más sobre mi</p>
+                        <p class="texto-sobre-mi" id="mi-descripcion-4">más sobre mi</p>
+                        <p class="texto-sobre-mi" id="mi-descripcion-5">más sobre mi</p>
+                        <p class="texto-sobre-mi" id="mi-descripcion-6">más sobre mi</p>
+                    </div>
+                </div>
+                <div class="sobre-mi-der"></div>
+            </div>
+            
+        </section>
+
+        <!--Seccion Skills-->
+        <div class="separador" id="skills">  </div>
+
+        <section class="seccion-skills" >
+            
+            <div class="contenedor-sobre-mi">
+                <div class="logo-skills"><img src="img/laboral_2.png" alt="icono-perfil" class="img-skills"></div>
+                
+                <div class="txt-sobre-mi" id="caja-skills">
+                    <h3 class="titulo-sobre-mi">Skills</h3>
+                    <table class="tabla">
+                        <tr> 
+                            <td class="logo-td" rowspan="2">
+                                
+                                <div class="fondo-logo">
+                                    <img src="img/1_prg.png" alt="">
+                                </div>
+                            </td>
+                            <th class="txt-th">Programación</th>
+                        </tr>
+                        <tr> 
+                            <td class="txt-td" id="skills1"></td>
+                        </tr>
+                        <tr> 
+                            <td class="logo-td" rowspan="2">
+                                <img src="img/2_des sist.png" alt="">
+                            </td>
+                            <th class="txt-th">Desarrollo de sistemas</th>
+                        </tr>
+                        <tr><td class="txt-td" id="skills2"></td></tr>
+                        
+                        <tr> 
+                            <td class="logo-td" rowspan="2">
+                                <img src="img/3_autodidacta.png" alt="">
+                            </td>
+                            <th class="txt-th">Autodidactismo</th>
+                        </tr>
+                        <tr><td class="txt-td" id="skills3">Autodidactismo</td></tr>
+                        
+                        <tr> 
+                            <td class="logo-td" rowspan="2">
+                                <img src="img/4_an sist.png" alt="">
+                            </td>
+                            <th class="txt-th">Analista de Sistemas</th>
+                        </tr>
+                        <tr><td class="txt-td" id="skills4"></td></tr>
+                        
+                        <tr> 
+                            <td class="logo-td" rowspan="2">
+                                <img src="img/5_profe.png" alt="">
+                            </td>
+                            <th class="txt-th">Enseñanza</th>
+                        </tr>
+                        <tr><td class="txt-td" id="skills5"></td></tr>
+                        
+                        <tr> 
+                            <td class="logo-td" rowspan="2">
+                                <img src="img/6_aplic web.png" alt="">
+                            </td>
+                            <th class="txt-th">Desarrollo web</th>
+                        </tr>
+                        <tr><td class="txt-td" id="skills6"></td></tr>
+                    </table>
+                </div>
+                <div class="sobre-mi-der"></div>
+            </div>
+
+        </section>
+
+        <!--Seccion Hobbies-->
+        <div class="separador" id="hobbies">  </div>
+
+        <section class="seccion-hobbies">
+            <div class="contenedor-sobre-mi" id="caja-hobbies">
+                <div class="logo-skills"><img src="img/hobbies_1.png" alt="icono-perfil" class="img-skills"></div>
+
+                <div class="txt-sobre-mi">
+                    <h3 class="titulo-sobre-mi">Hobbies</h3>
+                    <div class="parrafos-sobre-mi">
+                        <p class="texto-sobre-mi" id="txt-hobbies-1">descripción sobre mi</p>
+                        <p class="texto-sobre-mi" id="txt-hobbies-2">más sobre mi</p>
+                        <p class="texto-sobre-mi" id="txt-hobbies-3">más sobre mi</p>
+                        <p class="texto-sobre-mi" id="txt-hobbies-4">más sobre mi</p>
+                        <p class="texto-sobre-mi" id="txt-hobbies-5">más sobre mi</p>
+                        <p class="texto-sobre-mi" id="txt-hobbies-6">más sobre mi</p>
+                        <p class="texto-sobre-mi" id="txt-hobbies-7">más sobre mi</p>
+                        <p class="texto-sobre-mi" id="txt-hobbies-8">más sobre mi</p>
+                    </div>
+                </div>
+                <div class="sobre-mi-der"></div>
+            </div>
+
+        </section>
+
+        <!--Seccion Formacion-->
+        <div class="separador" id="formacion">  </div>
+
+        <section class="seccion-formacion">
+            <div class="contenedor-sobre-mi">
+                <div class="logo-skills"><img src="img/formacion_2.png" alt="icono-perfil" class="img-skills"></div>
+                
+                <div class="txt-sobre-mi">
+                    <h3 class="titulo-sobre-mi">Formación</h3>
+                    <div class="img-utn">
+                        <img src="img/UTN-_FRH-logo.png" alt="Universidad Tecnológica Nacional - Facultad Regional Haedo">
+                        <p>Tecnicatura Superior en Programación</p>
+                    </div>
+
+                    <div class="img-j23">
+                        <img src="img/j23.png" alt="Instituto Técnico Superior Santa María - Colegio Juan XXIII">
+                        <p>Analista de Sistemas - Instituto Técnico Superior Santa María, del Colegio Juan XXIII</p>
+                    </div>
+                    <div class="img-brown">
+                        <img src="img/brown.png" alt="Instituto Almirante Guillermo Brown">
+                        <p>Tramo Pedagógico para Técnicos y Profesionales - Aquí también hice la Primaria y Secundaria</p>
+                    </div>
+                    <div class="img-vb6">
+                        <img id="vb6" src="img/Visual_Basic_6.0_letras.png" alt="Visual Basic 6.0">
+                        <img src="img/access.png" alt="Microsoft Access">
+                        <img src="img/sql azul.png" alt="SQL">
+                        <p>Programación Freelance - Autodidacta</p>
+                    </div>
+                    <div class="img-alura">
+                        <img src="img/alura.jpg" alt="Alura Latam">
+                        <img src="img/ONE_logo_mej.png" alt="ONE Oracle Next Education">
+                        <p>Actualmente formándome en Front-End</p>
+                    </div>
+
+                    
+
+                </div>
+                
+                <div class="sobre-mi-der"></div>
+            </div>
+
+        </section>
+
+        <!--Seccion Proyectos-->
+        <div class="separador" id="proyectos">  </div>
+
+        <section class="seccion-proyectos" >
+            <div class="contenedor-sobre-mi">
+                <div class="logo-skills"><img src="img/proyectos.png" alt="icono-perfil" class="img-skills"></div>
+                
+                <div class="txt-sobre-mi">
+                    <h3 class="titulo-sobre-mi">Proyectos</h3>
+                    <p class="texto-sobre-mi" id="txt-proy-1">Proyectos subidos a GitHub. Son diversas prácticas y Challenges,  propuestas en los cursos de Alura-Latam.</p>
+                    
+                    <div class="caja-p">
+                        <div class="proy">
+                            <img src="img/c2_a2_p9_Practica.png" alt="Práctica Lógica de Programación y JavaScript">  
+                            <p>Práctica Lógica de Programación y JavaScript: explorar funciones y listas - Aula 2.
+                                <a href="https://soniaveit.github.io/C2_Aula2_9_Hora-de-practicar/" target="_blank"> Visitar</a>
+                            </p>
+                        </div>
+
+                        <div class="proy">
+                            <img src="img/c2_a3_p9_Hora de practicar.png" alt="Práctica Lógica de Programación y JavaScript">
+                            <p>Práctica Lógica de Programación y JavaScript: explorar funciones y listas - Aula 3.
+                                <a href="https://soniaveit.github.io/C2_Aula-3_9-Hora-de-practicar/" target="_blank"> Visitar</a>
+                            </p>
+                        </div>
+                        
+                        <div class="proy">
+                            <img src="img/c2_a4_p8_Practica.png" alt="Práctica Lógica de Programación y JavaScript">
+                            <p>Práctica Lógica de Programación y JavaScript: explorar funciones y listas - Aula 4.
+                                <a href="https://soniaveit.github.io/C2_Aula-4_8-Hora-de-practicar/" target="_blank"> Visitar</a>
+                            </p>
+                        </div>
+                        
+                        <div class="proy">
+                            <img id="vb6" src="img/encriptador.png" alt="Práctica Lógica de Programación, CSS y JavaScript">
+                            <p>El encriptador de mensajes - Challenge Alura Latam.
+                                <a href="https://soniaveit.github.io/Encriptador-de-Texto/" target="_blank"> Visitar</a>
+                            </p>
+                        </div>
+                    
+                        <div class="proy">
+                            <img src="img/AluraPlay_2.png" alt="AluraPlay"> 
+                            <p>Práctica CSS Flexbox y layouts responsivos.
+                                <a href="https://soniaveit.github.io/AluraPlay/" target="_blank"> Visitar</a>
+                            </p>
+                        </div>
+                        
+                        <div class="proy">
+                            <img src="img/Nuevo-Portfolio_2.png" alt="Mi Portfolio"> 
+                            <p>Mi Portfolio - Challenge Alura Latam.
+                                <a href="https://soniaveit.github.io/Portfolio-SV/" target="_blank"> Visitar</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            <div class="sobre-mi-der"></div>
+        </section>
+
+        <!--Seccion Contacto-->
+        <div class="separador" id="contacto">  </div>
+
+        <section class="seccion-contacto" >
+            <div class="contenedor-sobre-mi">
+                <div class="logo-skills"><img src="img/contacto.png" alt="icono-perfil" class="img-skills"></div>
+                
+                <div class="txt-sobre-mi">
+                    <h3 class="titulo-sobre-mi">Contacto</h3>
+                    <div class="contacto" id="contacto">
+                        <h2>¿Quiere contactarme?</h2>
+                        <h2>Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</h2>
+                        <form id="formulario-contacto">
+                          <label for="nombre">Nombre:</label>
+                          <input type="text" id="nombre" name="nombre" required>
+                          
+                          <label for="email">Email:</label>
+                          <input type="email" id="email" name="email" required>
+                          
+                          <label for="mensaje">Mensaje:</label>
+                          <textarea id="mensaje" name="mensaje" required></textarea>
+                          
+                          <input class="boton-enviar" type="submit" value="Enviar">
+                        </form>
+                    </div>
+            
+                </div>
+                
+                <div class="sobre-mi-der"></div>
+            </div>
+
+        </section>
+
+        <script src="js/app.js"></script>
+    </body>
+
+    <footer>
+        <div class="copyright">
+            <p>&copy Sonia Veit 2024</p>
+        </div>
+
+    </footer>
+
+</html>

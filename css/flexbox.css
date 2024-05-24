@@ -1,0 +1,83 @@
+
+.caja-navegador{
+    display: flex;   
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+.menu-lista{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+nav li{ 
+    margin: 0 0 0 15px;
+}
+
+/*main - Info de la página que contiene mi saludo, logo y mi foto*/
+.caja-saludo{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contenido-caja-saludo{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+}
+
+.mi-logo{
+    display: flex;
+    /*flex-direction: column-reverse;
+    justify-content: flex-start;*/
+    align-items: center;
+}
+
+.saludo-imagen{
+    display: flex;
+    align-items: center;
+}
+
+/*Seccion Sobre Mi*/
+@media (min-width:834px){
+
+}
+
+/*Tablet*/
+@media (max-width: 968px) {
+
+    /* Menú */
+    .titulo {
+        display: block;
+        color: #e6ebfa;
+        font-size: 2.8rem;
+        padding: 2rem;
+    }
+    .nav {
+        justify-content: center;
+    }
+
+    .navegador-cabecera {
+        display: none;
+    }
+
+    .info-texto{
+        font-size: 18px;
+        & h2{
+            margin: 0px 0 10px 0;
+        }
+    }
+
+    .seccion-formacion{
+        & p{
+            display: none;
+        }
+    }
+}
+

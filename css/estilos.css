@@ -1,0 +1,484 @@
+body{
+    background: #cbe0f8;
+}
+/* Cabecera */
+header{
+    /*background: #0078D4;*/
+    background: #312e60;
+    padding: 20px 0;
+    width: 100%;
+}
+
+/* Caja de navegación */
+/* Menú de navegación */
+.caja-navegador{
+    width: 100%;
+    position: fixed;
+    margin: 0 auto;
+    height: 50px;
+    top: 0px;
+    z-index: 100;
+     /*background: #0078D4;*/
+     background: #312e60;
+}
+
+.titulo{
+    list-style: none;
+    display: none;
+}
+nav a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu-lista-item{
+    font-size: 24px;
+    background-color: #fdcda5; /*#E6EAE9*/
+    border-radius:  20px  0 20px 0;
+    padding: 8px 20px; 
+    cursor: pointer;
+}
+
+.menu-lista-item:hover{
+    background-color: #f88d36;
+    transition: .4s;
+}
+
+nav a:hover{
+    text-decoration: none;
+    color: #ffffff;
+    transition: .4s;
+}
+
+
+/* main - Información de la página */
+/* main - mi logo, saludo y foto */
+.caja-saludo{
+    position: relative;
+    width: 100%;
+    /*background: #0078D4;*/
+    background: #5478b2;
+    top: 0;
+    padding: 20px;    
+}
+
+.mi-logo{
+    width: 30%;
+    height: 250px;  
+    color:   #312e60;
+}
+.mi-logo img{
+    width: 100%;
+}
+/*mi foto*/
+.saludo-imagen{
+    width: 30%;
+    height: 250px;
+}
+.saludo-imagen img{
+    width: 100%;
+}
+
+.mi-nombre{
+    margin: 0px 0 0 10px;
+}
+
+#span-mi-logo{
+    font-size: 40px;
+    font-style: oblique;
+    font-weight: bold;
+    top: -10px;
+}
+
+#p-mi-logo{
+    font-size: 24px;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.saludo-texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-wrap: balance;
+}
+
+.saludo-parrafo{
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 5px;
+    line-height: 1.5;
+    text-align: center;
+    
+}
+
+/*main - Info página*/
+.caja-info{
+    display: flex;
+}
+
+.info-izq, .info-der{
+    width: 15%;
+}
+
+.info-pagina{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px 20px ;
+    background: #B3E9C7;
+    border-radius: 20px;
+    gap: 40px;
+    height: auto;
+    /*height: 150px;*/
+}
+
+.redes-img{
+    width: 80px;
+}
+.info-texto{
+    font-size: 24px;  
+}
+.info-texto h2{
+    font-weight: bold;
+    margin: 20px 0 20px 0;
+}
+
+.separador{
+    width: 100%;
+    height: 80px;
+    background-color: transparent;
+}
+
+
+/*Seccion Sobre Mi*/
+.contenedor-sobre-mi{
+    display: flex;
+    flex-direction:row;
+}
+
+.logo-usuario{
+    display: flex;
+    width: 15%;
+    align-items: baseline;
+    /*margin: 80px 0 0 20px;*/
+}
+.logo-usuario img{
+    width: 50%;
+    margin-left: 20px;
+}
+.sobre-mi-der{
+    width: 15%;
+}
+
+.txt-sobre-mi{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px 20px ;
+    background: #6288BC;
+    border-radius: 20px;
+    /*height: 420px;*/
+    height: 35em;
+    box-shadow: #312e60;
+}
+
+.parrafos-sobre-mi{
+    overflow: auto;
+    padding: 10px;
+}
+/*Scroll Personalizado*/
+.parrafos-sobre-mi::-webkit-scrollbar {
+	width: 10px;
+	background: #021b79;
+}
+.parrafos-sobre-mi::-webkit-scrollbar-thumb {
+	background: rgba(255,255,255, .2);
+	border-radius: 10px;
+	border-right: 2px solid #021b79;
+}
+
+.titulo-sobre-mi{
+    font-size: 40px;
+    font-weight: bold;
+}
+.seccion-sobre-mi p{
+    font-size: 22px;
+}
+
+/*Sección Skills*/
+.logo-skills{
+    display: flex;
+    width: 15%;
+    align-items: baseline;
+    & img{
+        width: 50%;
+        margin-left: 20px;
+    }
+}
+
+ /*Tabla de contenidos*/
+ 
+ .tabla{
+    width: 100%;
+    display: flex;
+    overflow: auto;
+ }
+ /*Scroll Personalizado*/
+.tabla::-webkit-scrollbar {
+	width: 10px;
+	background: #021b79;
+}
+.tabla::-webkit-scrollbar-thumb {
+	background: rgba(255,255,255, .2);
+	border-radius: 10px;
+	border-right: 2px solid #021b79;
+}
+
+ tr{
+    padding: 10px 0;
+ }
+ .logo-td{
+    width: 10%;
+    text-align: center;
+    vertical-align: middle;
+    background: radial-gradient(circle 90px, #fff 15%, #6288BC 50%);
+ }
+
+ .txt-td{
+    font-size: 22px;
+    vertical-align: middle;
+    padding: 0 0 20px 0;
+ }
+ .txt-th{
+    vertical-align: top;
+    text-align: left;
+    font-weight: bold;
+    padding: 0;
+    font-size: 22px;
+ }
+.logo-td img{
+    width: 50%; 
+}
+
+/*Sección Hobbies*/
+.seccion-hobbies p{
+    font-size: 22px;
+}
+
+
+/*Sección Formación*/
+
+.seccion-formacion{
+    & p{
+        font-size: 22px;
+    }
+}
+.img-utn{
+    display: flex;
+    height: 10%;
+    padding: 10px 0 0 10px;
+    gap: 20px;
+    align-items: center;
+    & img{
+        height: 100%;
+    }
+}
+
+.img-j23{
+    display: flex;
+    height: 15%;
+    padding: 10px 0 0 0;
+    gap: 20px;
+    align-items: center;
+    flex-direction: row-reverse;
+    & img{
+        height: 100%;
+    }
+}
+
+.img-brown {
+    display: flex;
+    height: 15%;
+    padding: 10px 0 0 10px;
+    gap: 20px;
+    align-items: center;
+    & img{
+        height: 100%;
+    }
+}
+.img-vb6{
+    display: flex;
+    height: 15%;
+    padding: 10px 0 0 10px;
+    gap: 20px;
+    align-items: center;
+    flex-direction: row-reverse;
+    & img{
+        height: 100%;
+    }
+    & #vb6{
+        width: 25%;
+    }
+}
+.img-alura{
+    display: flex;
+    height: 15%;
+    padding: 10px 0 0 10px;
+    gap: 20px;
+    align-items: center;
+    & img{
+        height: 100%;
+    }
+}
+
+
+/*Sección Proyectos*/
+.caja-p {
+    width: 99%;
+    display: grid;
+    grid-template-columns: 
+    repeat(
+        auto-fit,
+        minmax(300px, 1fr)
+    );
+    gap: 16px;
+    overflow: auto;
+    padding: 10px;
+}
+/* Scroll Personalizado */
+
+.caja-p::-webkit-scrollbar {
+	width: 10px;
+	background: #021b79;
+}
+.caja-p::-webkit-scrollbar-thumb {
+	background: rgba(255,255,255, .2);
+	border-radius: 10px;
+	border-right: 2px solid #021b79;
+}
+
+
+.proy {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    & img{
+        border-radius: 8px;
+        width: 100%;
+        height: auto;
+        box-shadow: 0px 0px 10px #000;
+    }
+}
+#txt-proy-1{
+    font-size: 22px;
+}
+
+.caja-de-proyectos{
+    display: flex;
+    
+}
+
+.division-izq{
+    width: 10%;
+}
+
+.division-der{
+    width: 10%;
+}
+
+/*aquí está la ul con los li de los proyectos*/
+.proyectos-contenedor{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    font-size: 20px;
+    width: 80%;
+    height: auto;
+}
+.proyectos-items{
+    height: 250px;
+    width: 280px;
+    flex-grow: 0; 
+    gap: 10px;
+}
+
+.img-proy{
+    width: 100%;
+    height: 60%;
+    & img{
+        width: 100%;
+    }
+}
+.descripcion-proy{
+    /*margin-top: 0.5rem;*/
+    display: flex;
+    align-items: start;
+    height: 30%;
+}
+
+/*Sección Contacto*/
+.contacto{
+    display: flex;
+    font-size: 22px;
+    flex-direction: column;
+    & #formulario-contacto{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 10px 0;
+    }
+    & .boton-enviar{
+        width: 50%;
+    }
+    /* Aplica un margen inferior de 10px a todos los elementos del formulario, excepto el último */
+#formulario-contacto label,
+#formulario-contacto input,
+#formulario-contacto textarea {
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+/* Aplica un margen inferior adicional al último elemento del formulario */
+#formulario-contacto input:last-of-type,
+#formulario-contacto textarea:last-of-type {
+  margin-bottom: 40px;
+}
+
+/* Estilo básico para el botón */
+#formulario-contacto input[type="submit"] {
+    background-color: #312e60; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s ease; /* Transición suave al cambiar el color de fondo */
+  }
+  
+  /* Cambia el color de fondo cuando el cursor está sobre el botón */
+  #formulario-contacto input[type="submit"]:hover {
+    background-color: #130a3d;
+  }
+  
+  /* Cambia el color de fondo cuando se presiona el botón */
+  #formulario-contacto input[type="submit"]:active {
+    background-color: #383066;
+  }
+  
+}
+
+footer{
+    background: #312e60;
+    text-align: center;
+    padding:40px;
+}
+.copyright{
+    color:#FFFFFF;
+    font-size: 24px;
+    margin:20px;
+}
+
+/*<a target="_blank" href="https://icons8.com/icon/akG4VRhAoSii/github">GitHub</a> icono de <a target="_blank" href="https://icons8.com">Icons8</a>*/
